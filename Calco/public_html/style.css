@@ -1,0 +1,88 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+#main{
+	margin: 20px auto;
+	padding: 10px 10px;
+	width: 230px;
+	border: 2px solid #232530;
+	background-color: #5a5c68;
+	border-radius: 10px;
+}
+
+input[type="text"]{
+	width: 210px;
+	border-radius: 15px;
+	border: 2px solid #232530;
+	background-color: #c1d797;
+	height: 50px;
+	font-size: 30px;
+	text-align: right;
+	text-decoration-color: #232530;
+	padding-left: 10px;
+	padding-right: 10px;
+	outline: none;
+}
+
+
+.keyboard{
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 10px 0px 0px 3px;
+}
+
+button{
+	width: 50px;
+	height: 50px;
+	padding: 0px;
+	border: 1px solid #3d4049;
+	border-radius: 10px;
+	
+	font-size: 42px;
+	color: white;
+	text-align: center;
+	text-shadow: 0px 0px 5px black;
+	font-family: 'Century Gothic', Calibri, serif;
+	
+	outline: none;
+	
+}
+#point{
+	position: relative;
+	top:-13px;
+}
+
+#multi{
+	position: relative;
+	top: -1px;
+}
+
+#moins{
+	position: relative;
+	top: -3px;
+}
+
+#egale{
+	position: relative;
+	top: -1px;
+}
+
+
+
+.line{
+	margin: 0px 5px 5px 0px;
+}
+
+button[class="num"]{
+	background-color: #3d4049;
+}
+
+button[class="oper"]{
+	background-color: #bbbfc7;
+}
+
+button:hover{
+	background-color: green;
+}
